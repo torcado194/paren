@@ -1,0 +1,22 @@
+{
+  "name": "paren",
+  "version": "1.0.0",
+  "description": "a simple nested group parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parse",
+    "paren",
+    "parenthesis",
+    "parentheses",
+    "brackets",
+    "nest",
+    "nested",
+    "group",
+    "split"
+  ],
+  "author": "torcado",
+  "license": "MIT"
+}
