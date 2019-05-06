@@ -17,6 +17,10 @@
     "group",
     "split"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torcado194/paren.git"
+  }
   "author": "torcado",
   "license": "MIT"
 }
