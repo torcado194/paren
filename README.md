@@ -3,7 +3,9 @@ paren
 
 a simple nested group parser
 
-`npm i paren`
+```
+npm i paren
+```
 
 -----
 
