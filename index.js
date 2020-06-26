@@ -22,7 +22,7 @@ module.exports = function(str, splitDelim, beginChars = ['('], endChars = [')'])
         } else if(endChars.includes(s[cur])){
             if(pointers.length === 1){
                 //unmatched end, wrap anyway
-                let wrap = start == cur ? [] : [...pointers[0], s.slice(start, cur)];
+                let wrap = start == cur ? [...pointers[0]] : [...pointers[0], s.slice(start, cur)];
                 out = [wrap];
                 pointers = [out];
                 start = cur+1;
